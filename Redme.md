@@ -4,6 +4,9 @@ https://www.docker.com/
 # Site do hub docker
 https://hub.docker.com/
 
+# Comandos docker 
+https://stack.desenvolvedor.expert/appendix/docker/comandos.html
+
 # Verificar a versão do docker
  docker version
 
@@ -14,13 +17,27 @@ docker pull imagem "Nome da imagem do docker hub"
 docker imagem ls
 
 # Comando para listar os container.
-docker ps
+docker ps    -> Somente é necessario verificar os container em execução.
+docker ps -a -> Exibe os container que executaram e finalizaram por algum motivo.
 
 # Comando para iniciar a imagem
 docker run "Nome da imagem  que foi feito o pull do docker hub
 
+# Comando para parar o container
+1 - O comando abaixo mostra todos os comandos que executaram com sucesso
+docker ps -a
 
+2 - Após a execução do comando "docker ps -a", deverá aparecera lista abaixo com todos os container.
 
+CONTAINER ID   IMAGE         COMMAND    CREATED         STATUS                     PORTS     NAMES
+1046b0c1ea85   hello-world   "/hello"   2 minutes ago   Exited (0) 2 minutes ago             goofy_
+
+3 - Para realizar o stop do container é necessário pegar o Id do container para realizar o stop do mesmo.
+docker stop  1046b0c1ea85
+
+# Comando para remover o container do docker
+Obs: Esse comando somente podera ser eecutado quando o container estiver parado.
+docker rm 1046b0c1ea85
 
 
 
