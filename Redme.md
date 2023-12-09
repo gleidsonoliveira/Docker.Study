@@ -7,7 +7,6 @@ https://hub.docker.com/
 <h3 style="font-size: 24px;"># Comandos docker </h3>
 https://stack.desenvolvedor.expert/appendix/docker/comandos.html
 
-<h3 style="font-size: 24px;"># Verificar a versão do docker</h3>
 Verificar a versão do docker
 ```
  docker version
