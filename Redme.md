@@ -1,29 +1,29 @@
 <h3 style="font-size: 24px;"># Site do docker</h3>
 https://www.docker.com/
 
-# Site do hub docker
+<h3 style="font-size: 24px;"># Site do hub docker</h3>
 https://hub.docker.com/
 
-# Comandos docker 
+<h3 style="font-size: 24px;"># Comandos docker </h3>
 https://stack.desenvolvedor.expert/appendix/docker/comandos.html
 
-# Verificar a versão do docker
+<h3 style="font-size: 24px;"># Verificar a versão do docker</h3>
  docker version
 
-# Comando para realizar o download da imagem para máquina local.
+<h3 style="font-size: 24px;"># Comando para realizar o download da imagem para máquina local.</h3>
 docker pull imagem "Nome da imagem do docker hub"
 
-# Comano para listar todas as imagens do docker.
+<h3 style="font-size: 24px;"># Comano para listar todas as imagens do docker.</h3>
 docker imagem ls
 
-# Comando para listar os container.
+<h3 style="font-size: 24px;"># Comando para listar os container.</h3>
 docker ps    -> Somente é necessario verificar os container em execução.
 docker ps -a -> Exibe os container que executaram e finalizaram por algum motivo.
 
-# Comando para iniciar a imagem
+<h3 style="font-size: 24px;"># Comando para iniciar a imagem</h3>
 docker run "Nome da imagem  que foi feito o pull do docker hub
 
-# Comando para parar o container
+<h3 style="font-size: 24px;"># Comando para parar o container
 1 - O comando abaixo mostra todos os comandos que executaram com sucesso
 docker ps -a
 
@@ -35,7 +35,7 @@ CONTAINER ID   IMAGE         COMMAND    CREATED         STATUS                  
 3 - Para realizar o stop do container é necessário pegar o Id do container para realizar o stop do mesmo.
 docker stop  1046b0c1ea85
 
-# Comando para remover o container do docker
+<h3 style="font-size: 24px;"># Comando para remover o container do docker</h3>
 Obs: Esse comando somente podera ser eecutado quando o container estiver parado.
 docker rm 1046b0c1ea85
 
