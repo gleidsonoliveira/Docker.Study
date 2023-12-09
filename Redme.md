@@ -37,7 +37,7 @@ docker ps -a
 docker stop  1046b0c1ea85
 
 <h3 style="font-size: 24px;"># Comando para remover o container do docker</h3>
-Obs: Esse comando somente podera ser eecutado quando o container estiver parado.
+Obs: Esse comando somente podera ser eecutado quando o container estiver parado.<br/>
 docker rm 1046b0c1ea85
 
 
