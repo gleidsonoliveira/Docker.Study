@@ -31,7 +31,7 @@ docker ps -a
 
 | CONTAINER ID | IMAGE |COMMAND|CREATED|STATUS|PORTS|NAMES|
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-| 1046b0c1ea85|hello-world  |"/hello"|2 minutes ago|Exited (0) 2 minutes ag| goofy_|
+| 1046b0c1ea85|hello-world  |"/hello"|2 minutes ago|Exited (0) 2 minutes ag|N/A| goofy_ |
 
 3 - Para realizar o stop do container é necessário pegar o Id do container para realizar o stop do mesmo.
 docker stop  1046b0c1ea85
