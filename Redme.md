@@ -8,11 +8,10 @@ https://hub.docker.com/
 https://stack.desenvolvedor.expert/appendix/docker/comandos.html
 
 <h3 style="font-size: 24px;"># Verificar a versão do docker</h3>
-YourCopyableTextblock
+Verificar a versão do docker
 ```
  docker version
 ```
-
 <h3 style="font-size: 24px;"># Comando para realizar o download da imagem para máquina local.</h3>
 docker pull imagem "Nome da imagem do docker hub"
 
