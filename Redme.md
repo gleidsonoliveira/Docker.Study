@@ -1,9 +1,9 @@
-Site do docker
+Docker
 ```
 https://www.docker.com/
 ```
 
-Site do hub docker
+Hub docker
 ```
 https://hub.docker.com/
 ```
@@ -41,7 +41,7 @@ Comando para iniciar a imagem
 docker run "Nome da imagem  que foi feito o pull do docker hub
 ```
 
-Comando para parar o container.<br/>
+Comando para realizar o stop do container.<br/>
 Obs: 1 - O comando abaixo mostra todos os comandos que executaram com sucesso
 ```
 docker ps -a
@@ -55,7 +55,7 @@ docker ps -a
 
 3 - Para realizar o stop do container é necessário pegar o Id do container para realizar o stop do mesmo.
 ```
-docker stop  1046b0c1ea85
+docker stop 1046b0c1ea85
 ```
 
 Comando para remover o container do docker<br/>
