@@ -23,7 +23,7 @@ docker ps -a -> Exibe os container que executaram e finalizaram por algum motivo
 <h3 style="font-size: 24px;"># Comando para iniciar a imagem</h3>
 docker run "Nome da imagem  que foi feito o pull do docker hub
 
-<h3 style="font-size: 24px;"># Comando para parar o container
+<h3 style="font-size: 24px;"># Comando para parar o container</h3>
 1 - O comando abaixo mostra todos os comandos que executaram com sucesso
 docker ps -a
 
