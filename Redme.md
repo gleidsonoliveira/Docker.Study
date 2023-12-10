@@ -18,12 +18,12 @@ Verificar a versão do docker
 ```
 Comando para realizar o download da imagem para máquina local.
 ```
-docker pull imagem "Nome da imagem do docker hub"
+docker pull image "Nome da imagem do docker hub"
 ```
 
 Comano para listar todas as imagens do docker.
 ```
-docker imagem ls
+docker image ls
 ```
 Comando para listar os container.<br/>
 Obs: Somente é necessario verificar os container em execução.
