@@ -21,7 +21,7 @@ Comando para realizar o download da imagem para máquina local.
 docker pull image "Nome da imagem do docker hub"
 ```
 
-Comano para listar todas as imagens do docker.
+Comando para listar todas as imagens do docker.
 ```
 docker image ls
 ```
