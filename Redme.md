@@ -59,7 +59,7 @@ docker stop 1046b0c1ea85
 ```
 
 Comando para remover o container do docker<br/>
-Obs: Esse comando somente podera ser eecutado quando o container estiver parado.<br/>
+Obs: Esse comando somente podera ser executado quando o container estiver parado.<br/>
 ```
 docker rm 1046b0c1ea85
 ```
