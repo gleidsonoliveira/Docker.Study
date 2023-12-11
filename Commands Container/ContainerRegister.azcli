@@ -1,0 +1,49 @@
+# Login no Azure
+az login
+
+# Build do Dockerfile
+docker build -t site-html .
+
+# Listando Imagens
+docker images
+
+# Listando Containers
+docker container ls
+
+# Rodando nossa Aplicacao
+docker run -d -p 8089:80 site-html
+
+curl localhost:8089
+
+# Parar Container
+docker stop a1f587b60e0d
+
+# Login no ACR
+az acr login --name acrcontainerrepos
+
+# Tag na Imagem
+docker tag site-html acrcontainerrepos.azurecr.io/site-html
+
+# Push para o ACR
+docker push acrcontainerrepos.azurecr.io/site-html
+
+# Pull do ACR para Maquina Local
+docker pull acrcontainerrepos.azurecr.io/site-html:latest
+
+# Rodar Imagem vinda do ACR Localmente
+docker run -d -p 8089:80 acrcontainerrepos.azurecr.io/site-html:latest
+
+# Build Imagem Local
+docker build -t acrcontainerrepos.azurecr.io/site-html .
+
+# Tag como V2
+docker tag acrcontainerrepos.azurecr.io/site-html acrcontainerrepos.azurecr.io/site-html:v2
+
+# Push V2
+docker push acrcontainerrepos.azurecr.io/site-html:v2
+
+# Pull V2
+docker pull acrcontainerrepos.azurecr.io/site-html:v2
+
+# Rodar Imagem V2 vinda do ACR Localmente
+docker run -d -p 8090:80 acrcontainerrepos.azurecr.io/site-html:v2
