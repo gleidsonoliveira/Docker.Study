@@ -80,3 +80,34 @@ Obs: Esse comando somente podera ser executado quando o container estiver parado
 docker rm 1046b0c1ea85
 ```
 
+Verificar o status de um container.
+```
+docker stats (id ou alias)
+```
+
+Inspecionar uma imagem do docker
+```
+docker inspect (id ou alias)
+```
+
+Deletar uma imagem
+```
+docker rmi (imagem)
+```
+
+Executa o container com a imagem escolhida.
+```
+docker exec (id ou nome)
+```
+
+Executa um comando dentro do container
+Obs: Comando abaixo inicia o container 
+```
+docker start (id ou nome do container) 
+```
+
+```
+docker stop (id ou nome do container) 
+```
+
+
