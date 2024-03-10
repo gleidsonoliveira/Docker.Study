@@ -20,11 +20,23 @@ Comando para realizar o download da imagem para máquina local.
 ```
 docker pull image "Nome da imagem do docker hub"
 ```
+```
+docker image pull  "Nome da imagem do docker hub"
+```
 
 Comando para listar todas as imagens do docker.
 ```
 docker image ls
 ```
+```
+docker image list
+```
+
+Comando para pesquisar no docker 
+```
+docker search (parameter)
+```
+
 Comando para listar os container.<br/>
 Obs: Somente é necessario verificar os container em execução.
 ```
@@ -39,6 +51,10 @@ docker ps -a
 Comando para iniciar a imagem
 ```
 docker run "Nome da imagem  que foi feito o pull do docker hub
+```
+
+```
+docker run -it -p 8080:80 ngnix 
 ```
 
 Comando para realizar o stop do container.<br/>
